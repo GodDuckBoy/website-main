@@ -1,10 +1,9 @@
-import React from 'react';
-import ContactLink from '../components/ContactLink';
-import Header from '../components/Header';
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
-import { contactInfo } from '../lib/content';
-import { motion } from 'framer-motion';
+import React from "react";
+import ContactLink from "../components/ContactLink";
+import Header from "../components/Header";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import { contactInfo } from "../lib/content";
 
 const Contact = () => {
   return (
@@ -18,7 +17,7 @@ const Contact = () => {
         <div className="w-10/12 md:w-9/12 lg:w-8/12  mx-auto flex flex-col justify-center">
           <br />
           <div className="text-darkgrey dark:text-grey font-semibold mb-4 md:text-xl">
-            {'PRIMARY'}
+            {"PRIMARY"}
           </div>
           <div className="">
             {contactInfo.primary.map((item, index) => {
@@ -27,7 +26,7 @@ const Contact = () => {
           </div>
           <br />
           <div className="text-darkgrey dark:text-grey font-semibold mb-4 md:text-xl">
-            {'SOCIAL'}
+            {"SOCIAL"}
           </div>
           <div className="grid grid-cols-4 sm:flex sm:flex-row">
             {contactInfo.social.map((item, index) => {
